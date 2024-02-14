@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #E5E5F5;
+}
+
+.container {
+    width: 25%;
+    height: 93vh;
+    margin: 3% auto;
+    background-color: #fff;
+    padding: 1.6%;
+    box-shadow: 1px 2px 55px 7px #B1ABD0;
+}
+.back-btn {
+    color: #BDBDDE;
+    font-size: 1.1rem;
+    font-weight: 200; 
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+.back-btn p {
+    letter-spacing: 1;
+}
+.back-btn .arrow {
+    font-size: 2rem;
+}
+.today {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.today p {
+    font-size: 1.9rem;
+    color: #838383;
+    font-weight: 200;
+    margin-bottom: 7%;
+}
+.add {
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: #BDBDDE;
+    border: 1px solid #BDBDDE;
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    padding: 3.1%;
+    cursor: pointer;
+    margin-bottom: 7%;
+}
+.progress {
+    width: 100%;
+    height: 0.8rem;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+.progress-color {
+    background-color: #9898CB;
+    width: 33%;
+    height: 0.8rem;
+    border-radius: 8px;
+}
+.percentage p {
+    text-align: center;
+    color: #BDBDDE;
+    font-weight: 100;
+}
+.list {
+    padding: 2% 0;
+    margin-top: 12%;
+    border-bottom: 1px solid #eeeeee;
+}
+.list-item-wrapper {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10%;
+    position: relative;
+    
+}
+.fa-circle {
+    color: #B5EB81;
+    font-size: 1.7rem;
+    cursor: pointer;  
+}
+.done {
+    color: #fff;
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.green {
+    background-color: #B5EB81;
+    border-radius: 50%;
+}
+.list-item {
+    color: #A8A8A8;
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 1;
+    cursor: pointer;
+    margin-top: 2.5%;
+}
+.recurring {
+    color: #A8A8A8;
+    font-weight: 200;
+    font-size: 1.1rem;
+    margin: 5% 0;
+}
+.recurring-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.recurring-list li {
+    width: 46%;
+    border-radius: 30px;
+    padding: 3%;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    background-color: yellow;
+    color: #838383;
+    cursor: pointer;
+}
+.recurring-list .yellow {
+    background-color: #F6ED84;
+}
+.recurring-list .green {
+    background-color: #B5EB81;
+}
+.recurring-list .pink {
+    background-color: #F9AAAA;
+}
+.recurring-list .purple {
+    background-color: #B3B3EF;
+}
