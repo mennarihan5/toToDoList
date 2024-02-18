@@ -87,25 +87,32 @@ body {
 .list-item-wrapper {
     display: flex;
     gap: 1rem;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     position: relative;
     
 }
-.fa-circle {
+.circle-icon {
     color: #B5EB81;
-    font-size: 1.7rem;
-    cursor: pointer;  
+    font-size: 2rem;
+    cursor: pointer; 
 }
-.done {
+.done-check {
     color: #fff;
     position: absolute;
-    left: 8px;
-    top: 5px;
+    left: 10px;
+    top: 9px;
     font-size: 0.9rem;
     cursor: pointer;
+    display: none;
+    z-index: 1;
+}
+.done {
+    display: block;
 }
 .green {
     background-color: #B5EB81;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
 }
 .list-item {
