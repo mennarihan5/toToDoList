@@ -17,7 +17,7 @@ body {
 .container {
     width: 25%;
     height: 93vh;
-    margin: 3% auto;
+    margin: 2% auto;
     background-color: #fff;
     padding: 1.6%;
     box-shadow: 1px 2px 55px 7px #B1ABD0;
@@ -139,12 +139,12 @@ body {
 }
 .recurring-list li {
     width: 46%;
+    height: 2.8rem;
     border-radius: 30px;
-    padding: 3%;
+    padding: 4%;
     font-size: 1.2rem;
     font-weight: 200;
     letter-spacing: 1px;
-    background-color: yellow;
     color: #838383;
     cursor: pointer;
 }
