@@ -70,7 +70,7 @@ body {
 }
 .progress-color {
     background-color: #9898CB;
-    width: 33%;
+    width: 0;
     height: 0.8rem;
     border-radius: 8px;
 }
