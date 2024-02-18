@@ -81,13 +81,13 @@ body {
 }
 .list {
     padding: 2% 0;
-    margin-top: 12%;
+    margin-top: 8%;
     border-bottom: 1px solid #eeeeee;
 }
 .list-item-wrapper {
     display: flex;
     gap: 1rem;
-    margin-bottom: 7%;
+    margin-bottom: 6%;
     position: relative;
     
 }
