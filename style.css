@@ -16,7 +16,7 @@ body {
 
 .container {
     width: 25%;
-    height: 93vh;
+    height: auto;
     margin: 2% auto;
     background-color: #fff;
     padding: 1.6%;
